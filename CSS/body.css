@@ -1,0 +1,59 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Primary style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #f7f7f7;
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    background-color: #1C1D22;
+    /*Main color*/
+    scroll-behavior: smooth;
+}
+
+/*Modifikim i Navbar*/
+.active{
+    color: #0D82EC !important;
+}
+
+.nav-link, .navbar-brand{
+    color: #CECFD1;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+    color:#F65453 !important;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: #121212;
+    width: 100%;
+  }
+
+  .btn-form{
+    position: absolute;
+    top:15%;
+    right: 14.5%;
+    border-radius: 20px;
+  }
+
+  #name, #subject, #email, #form-email{
+    background-color: #20232A;
+    color: #CECFD1;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+  }
+
+  #nameerror, #subjecterror, #emailerror, #messageerror, #emailerror2{
+    color:#F65453;
+    font-size: small;
+  }
+  

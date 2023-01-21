@@ -1,0 +1,23 @@
+main{
+    height: 750px;
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    height: 200px;
+    border-radius: 25px;
+}
+
+a{
+    color: #0D82EC;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F65453;
+}
+
+i:hover{
+    color: #F65453;
+}

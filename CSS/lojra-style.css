@@ -1,0 +1,8 @@
+.row{
+    border-radius: 25px;
+    border-bottom: 5px solid  #F65453;
+    background-color: #20232A;
+}
+.col{
+    width: 200px;
+}

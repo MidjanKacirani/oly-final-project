@@ -1,0 +1,39 @@
+e-lojra
+
+Header
+Home
+Lojera
+About
+Contact
+
+Home page
+Keni pak kohe te lirshme? Ju ofrojme lojera per te kaluar kohen. 
+2 cards per 2 lojna me butona Luaj, cards zmadhohen kur behet hover dhe del glow anash
+
+Lojera
+Carousel
+- Tic Tac Toe
+- Ping Pong
+
+Footer
+copyright, subscribe for updates
+
+
+About page
+Teknologjite e perdorura 
+Viti i prodhimit
+Profile i krijuesit
+
+Color palette: #1D212C
+
+Background main color: #1C1D22
+Banner main color: #20232A
+Text color: #CECFD1
+Other colors: Blue: #0D82EC Orange: #F65453
+
+
+Font: Roboto
+
+
+similar: https://www.behance.net/gallery/159224409/Digital-Agency?tracking_source=project_owner_other_projects
+        https://www.behance.net/gallery/159405203/Gaming-Dashboard-Playstation?tracking_source=search_projects%7Cgaming+color+palette

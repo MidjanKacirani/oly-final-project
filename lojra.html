@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Perfshirja e Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Perfshirja e CSS-->
+    <link rel="stylesheet" href="CSS/body.css">
+    <link rel="stylesheet" href="CSS/lojra-style.css">
+    <!--Perfshirja e Bootstrap te edituar ne CSS-->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <!-- Perfshirja e fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Lojra</title>
+    <!-- Vendosja e Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/media/favicon_io/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="/media/favicon_io/favicon/favicon.png">
+</head>
+<body>
+    <header>
+      <!--Fillimi i Navbar-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border: 2px solid black;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">e-lojna</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="lojra.html">Lojra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>          
+            </ul>        
+          </div>
+        </div>
+      </nav>
+      <!--Fund i navbar-->
+    </header>
+    <main>
+      <div class="container align-middle">
+        <div class="row m-5 p-2 align-items-center">
+          <div class="col my-2">
+            <img src="media/img/icons/i-ttt.png" alt="" class="img-fluid w-50 mx-5">
+          </div>
+          <div class="col my-2">
+            <p>Tic-tac-toe është një lojë me letër dhe laps për dy lojtarë (ne kete rast kundrejt nje algoritmi) që shënojnë me radhë hapësirat në një rrjet tre nga tre me X ose O. Lojtari që arrin të vendosë tre nga shenjat e tyre në një horizontale, vertikale , ose rreshti diagonal është fituesi.</p>
+          </div>
+          <div class="col my-2">
+            <a href="l1-tic-tac-toe.html"><button type="submit" class="btn btn-primary mx-5 w-50">Luaj</button></a>
+          </div>
+        </div>
+        <div class="row m-5 p-2 align-items-center">
+          <div class="col">
+            <img src="media/img/icons/i-dino.png" alt="" class="img-fluid w-50 mx-5">
+          </div>
+          <div class="col">
+            <p>T-Rex Dinosaur - një kopje e lojës së fshehur nga modaliteti offline Chrome.</p>
+          </div>
+          <div class="col">
+            <a href="games/dino/chrome-dino/l2-dino.html"><button type="submit" class="btn btn-primary mx-5 w-50">Luaj</button> </a>
+          </div>
+        </div>
+        <div class="row m-5 p-2 align-items-center">
+          <div class="col">
+            <img src="media/img/icons/i-reflex.png" alt="" class="img-fluid w-50 mx-5">
+          </div>
+          <div class="col">
+            <p>Reflex eshte nje loje qe teston reflekset e juaja. Loja eshte ne perpunim dhe nuk eshte ende gati per publikun.</p>
+          </div>
+          <div class="col">
+          <button type="submit" class="btn btn-primary mx-5 w-50" disabled>Luaj</button>
+          </div>
+        </div>
+      </div>       
+    </main>
+    <footer class="px-5 pt-3 mt-5">
+      <section class="subscribe">
+        <form action="">
+          <div class="mb-3 d-flex justify-content-evenly">
+            <label for="exampleInputEmail1" class="form-label p-2">Subscribe for more updates</label>
+            <input type="email" class="form-control w-50" id="form-email" placeholder="Email">
+            <button type="button" class="btn btn-primary btn-form" id="form-btn">Abonohu</button>
+          </div>
+          <div id="emailerror2" class="text-center"></div>
+        </form>
+        <div class="text-center py-3">
+          <h6 class="h6">Dizenjuar dhe implementuar nga Midjan Kaçirani</h6>
+        </div>
+      </section>
+    </footer>
+
+<!-- Perfshirja e Validim te formes -->
+<script src="JS/validim-footer.js"></script>     
+            
+  <!--Perfshirja e Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

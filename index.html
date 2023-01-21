@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Perfshirja e Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Perfshirja e CSS-->
+    <link rel="stylesheet" href="CSS/home-style.css">
+    <link rel="stylesheet" href="CSS/body.css">
+    <!--Perfshirja e Bootstrap te edituar ne CSS-->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <title>Home</title>
+    <!-- Vendosja e Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/media/favicon_io/favicon/favicon.svg">
+    <link rel="icon" type="image/png" href="/media/favicon_io/favicon/favicon.png">
+</head>
+<body>
+    <header>
+      <!--Fillimi i Navbar-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="border: 2px solid black;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">e-lojna</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lojra.html">Lojra</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>          
+            </ul>        
+          </div>
+        </div>
+      </nav>
+      <!--Fund i navbar-->
+    </header>
+    <main>
+      <section id="section1" class="mb-5">
+        <div class="mesazh p-3">
+          <h3 class="h3">e-lojra</h3>
+          <p>Keni pak kohe te lirshme? Ju ofrojme lojra per te kaluar kohen.</p>
+        </div>
+      </section>
+      <!--Vendosja e cards-->
+      <section class="container-fluid w-75" id="section2">
+        <div class="row row-cols-3">
+          <div class="col">
+            <div class="card">
+              <img src="media/img/icons/i-ttt.png" class="img-fluid w-50 m-3" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Tic tac toe</h5>
+                <p class="card-text">Klikoni butonin me poshte per me shume informacion ne lidhje me Tic Tac Toe!</p>
+                <a href="/l1-tic-tac-toe.html"><button type="button" class="btn btn-card new-hover">Me shume</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="media/img/icons/i-dino.png" class="img-fluid w-50 m-3" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Dino</h5>
+                <p class="card-text">Klikoni butonin me poshte per me shume informacion ne lidhje me Dino!</p>
+                <a href="/games/dino/chrome-dino/l2-dino.html"><button type="button" class="btn btn-card new-hover">Me shume</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="media/img/icons/i-reflex.png" class="img-fluid w-50 m-3" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Reflex</h5>
+                <p class="card-text">Loja eshte ne perpunim e siper! Vizitojeni perseri faqen per te reja.</p>
+                <button type="button" class="btn btn-card new-hover" disabled>Me shume</button>
+              </div>
+            </div>
+          </div>
+          </div>
+      </section>
+    </main>
+    <footer class="px-5 pt-3 mt-5">
+      <section class="subscribe">
+        <form action="">
+          <div class="mb-3 d-flex justify-content-evenly">
+            <label for="exampleInputEmail1" class="form-label p-2">Subscribe for more updates</label>
+            <input type="email" class="form-control w-50" id="form-email" placeholder="Email">
+            <button type="button" class="btn btn-primary btn-form" id="form-btn">Abonohu</button>
+          </div>
+          <div id="emailerror2" class="text-center"></div>
+        </form>
+        <div class="text-center py-3">
+          <h6 class="h6">Dizenjuar dhe implementuar nga Midjan Kaçirani</h6>
+        </div>
+      </section>
+    </footer>
+
+<!-- Perfshirja e Validim te formes -->
+<script src="JS/validim-footer.js"></script>          
+<!--Perfshirja e Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
